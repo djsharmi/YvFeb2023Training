@@ -28,4 +28,5 @@ int main(){
 
    cout<<"Multiplicaion of two numbers: "<<multiplication(g_first_operand,g_second_operand)<<endl;	//function call for multiplication
 
+   cout<<"largest operand:"<<(g_first_operand>g_second_operand)?g_first_operand:g_second_operand;	//largest element between two operand
 }
