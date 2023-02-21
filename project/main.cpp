@@ -27,6 +27,10 @@ int main(){
    cout<<"Addition of two numbers: "<<addition(g_first_operand,g_second_operand)<<endl;	//function call for addition
 
    cout<<"Multiplicaion of two numbers: "<<multiplication(g_first_operand,g_second_operand)<<endl;	//function call for multiplication
+<<<<<<< Updated upstream
 
    cout<<"largest operand:"<<(g_first_operand>g_second_operand)?g_first_operand:g_second_operand;	//largest element between two operand
+=======
+   //exit main
+>>>>>>> Stashed changes
 }
