@@ -1,0 +1,14 @@
+passenger name: archana
+passenger phone no: 9239212378
+passenger gender:female
+passenger age:21
+seat no:12
+passenger name: pavi
+passenger phone no: 8217878990
+passenger gender:female
+passenger age:21
+seat no:13
+
+---------------------------------
+Total---------->1150
+----------------------------------
