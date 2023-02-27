@@ -41,7 +41,7 @@ int main(){
 
    char dest[30];	//declaring destination variable
 
-   printf("enter no of pasenger:\n");
+   printf("Enter no of pasenger:\n");
 
    scanf("%d",&cn);
 
@@ -51,37 +51,37 @@ int main(){
 
    for(k=0;k<cn;k++){
 
-      printf("enter the passenger name:\n");   //getting required passenger details and storing in file
+      printf("Enter the passenger name:\n");   //getting required passenger details and storing in file
 
       scanf("%s",p.name);
 
-      printf("enter the passenger phone no:\n");
+      printf("Enter the passenger phone no:\n");
 
       scanf("%s",p.phoneno);
 
-      fprintf(fp,"passenger name: %s\n",p.name);
+      fprintf(fp,"Passenger name: %s\n",p.name);
 
-      fprintf(fp,"passenger phone no: %s\n",p.phoneno);
+      fprintf(fp,"Passenger phone no: %s\n",p.phoneno);
 
-      printf("\n enter gender:\n");
+      printf("\n Enter gender:\n");
 
       scanf("%s",p.gender);
 
-      fprintf(fp,"passenger gender:%s\n",p.gender);
+      fprintf(fp,"Passenger gender:%s\n",p.gender);
 
-      printf("\nenter the age of passenger:\n");
+      printf("\nEnter the age of passenger:\n");
 
       scanf("%d",&p.age);
 
-      fprintf(fp,"passenger age:%d\n",p.age);
+      fprintf(fp,"Passenger age:%d\n",p.age);
       
-      printf("\n stations available are \n1.bangalore\n2.mumbai\n3.kolkata\n4.rajasthan\n5.gujarat\n6.agra\n7.delhi\n");
+      printf("\n Stations available are \n1.bangalore\n2.mumbai\n3.kolkata\n4.rajasthan\n5.gujarat\n6.agra\n7.delhi\n");
 
-      printf("enter boarding point:\n");
+      printf("Enter boarding point:\n");
 
       scanf("%s",source);
 
-      printf("enter the destination point:\n");
+      printf("Enter the destination point:\n");
 
       scanf("%s",dest);
 
@@ -113,7 +113,7 @@ int main(){
       else {
          sum+=0;
       }
-      printf("choose the class \n1.AC CLASS \n2.SEATER \n3.SLEEPER\n");
+      printf("Choose the class in terms of number \n1.AC CLASS \n2.SEATER \n3.SLEEPER\n");
 
       scanf("%d",&choice);
 
@@ -138,10 +138,10 @@ int main(){
 
 	 default:
 
-	    printf("\nenter correct class number\n");
+	    printf("\nEnter correct class number\n");
      
       }
-      printf("\nenter the seat number between 1 to 64:\n");
+      printf("\nEnter the seat number between 1 to 64:\n");
 
       scanf("%d",&seat);
 
@@ -149,7 +149,7 @@ int main(){
 
          if(seats[i]==seat){
 
-            printf("seat is already booked kindly book new seat:");
+            printf("Seat is already booked kindly book new seat:\n");
 
 	    scanf("%d",&seat);
 
@@ -158,9 +158,9 @@ int main(){
       }
       seats[k]=seat;
 
-      printf("\nyour seat is reserved\n");
+      printf("\nYour seat is reserved\n");
 
-      fprintf(fp,"seat no:%d\n",seat);
+      fprintf(fp,"Seat no:%d\n",seat);
 }
 fprintf(fp,"\n---------------------------------\n");
 
