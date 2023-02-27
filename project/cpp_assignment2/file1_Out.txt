@@ -1,4 +1,0 @@
-This is vim editor
-Hello world
-This linux world
-This is c++ asiignment
